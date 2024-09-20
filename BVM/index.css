@@ -1,0 +1,11 @@
+.mainpage {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.mainpage2 {
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;   
+}
