@@ -1,3 +1,33 @@
 <html>
-    
+    <head>
+        <title>Welcome to BloxVote platform</title>
+        <link rel="icon" href="/Shots/favicon.png">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body class="bodydesign">
+        <div class="mainpage">
+            <h1>SCAN YOUR FINGER NOW</h1>
+        </div>
+        <div class="mainpage2">
+          <img src="/Shots/finger.png" width="300">
+        </div>
+        <div class ="mainpage3">
+            <h2 class="label-text" >Enter your Pincode</h2>
+            <input class="input-box" type="text" id="adhaar" placeholder="XXXXXX" maxlength="6">
+        </div>
+        <script>
+            var inputField = document.querySelector('input')  
+            inputField.oninput = function()
+            {
+              var removeChar = this.value.replace(/[^0-9\.]/g, '') // This is to remove alphabets and special characters.
+              // console.log(removeChar);
+              var removeDot = removeChar.replace(/\./g, '') // This is to remove "DOT"
+              this.value = removeDot
+            }
+        </script>
+        <div class="mainpage4">
+            <button class="connect-btn">CONFIRM</button>
+        </div>
+    </body>
 </html>
