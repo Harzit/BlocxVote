@@ -1,7 +1,7 @@
 .mainpage {
     display: flex;
     justify-content: center;
-    background-color: #F8EDE3;
+    background-color: #FF6500;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     margin-top: 200px;
@@ -12,7 +12,7 @@
 .mainpage2 {
     display: flex;
     justify-content: center;
-    background-color: #DFD3C3;
+    background-color: #1E3E62;
     margin-bottom: 0px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-    background-color: #D0B8A8;
+    background-color: #0B192C;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     padding: 40px;
-    background-color: #8D493A;
+    background-color: #000000;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -39,17 +39,17 @@
     padding-right: 50px; 
     font-size: 50px;
     font-weight: 600;
-    color: #333; /* Dark grey for readability */
-    display: block; /* Ensures it appears above the input box */
+    color: white; 
+    display: block;
  }
 
 .highlight {
-    color: #4CAF50; /* Green for emphasis on key words */
+    color: #4CAF50;
 }
 
 .connect-btn {
     padding: 15px 30px;
-    background-color: #4CAF50;  /* Green */
+    background-color: #4CAF50;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -61,7 +61,7 @@
 }
 
 .connect-btn:hover {
-    background-color: #45a049; /* Darker green */
+    background-color: #45a049;
     transform: translateY(-3px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
@@ -83,19 +83,19 @@
     margin: 10px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 30px;
     transition: 0.3s;
     outline: none;
   }
 
   .input-box:focus {
-    border-color: #4CAF50; /* Green border on focus */
-    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Green glow */
+    border-color: #4CAF50; 
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    border-radius: 25px;
   }
 
   .input-box::placeholder {
-    color: #aaa; /* Placeholder color */
-    opacity: 1;  /* Full opacity for better readability */
+    color: #aaa; 
+    opacity: 1;  
 }
-
